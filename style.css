@@ -151,13 +151,10 @@ button {
     line-height: 1.5;
 }
 
-.shopping-cart {
-    display: inline-block;
-}
-
 article {
     display: inline-block;
     line-height: 1.7;
+    vertical-align: middle;
 }
 
 h1,
@@ -168,4 +165,9 @@ h2 {
 article p {
     font-size: 14px;
     line-height: 1.7;
+}
+
+.shopping-basket {
+    display: inline-block;
+    vertical-align: middle;
 }
