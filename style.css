@@ -190,3 +190,15 @@ h1 {
     padding-left: 70px;
     padding-top: 90px;
 }
+
+hr {
+    background-color: #dbd8d8;
+    border: none;
+    height: 1px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+}
