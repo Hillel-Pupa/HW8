@@ -7,6 +7,10 @@
         <title>Prechu</title>
         <link media="all" rel="stylesheet" href="reset.css" />
         <link media="all" rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Icons"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header class="header">
@@ -27,32 +31,33 @@
             </div>
         </header>
         <main>
-            <div class="banner">
+            <section class="banner">
                 <div class="container banner-content">
                     <img
                         class="banner-image"
                         src="images/iphone.png"
                         alt="iphone"
                     />
-                    <section class="banner-info">
+                    <div class="banner-info">
                         <h1>Lorem Ipsum is simply</h1>
-                        <p class="banner-text">
-                            dummy text of the <br />
-                            printing & typesetting<br />
-                        </p>
+                        <div class="banner-text">
+                            <p>dummy text of the</p>
+                            <p>printing & typesetting</p>
+                        </div>
                         <button>
-                            <img
-                                class="check-mark"
-                                src="images/check.png"
-                                alt="check-mark"
-                            /><span class="button-text">Sign up now</span>
+                            <span class="material-icons">
+                                check_circle_outline
+                            </span>
+                            <span class="button-text">Sign up now</span>
                         </button>
-                    </section>
+                    </div>
                 </div>
-            </div>
+            </section>
             <div class="container">
                 <div class="card">
-                    <div class="pencil circle"></div>
+                    <div class="pencil circle">
+                        <img src="images/pencil.png" alt="pencil" />
+                    </div>
                     <h4>Contrary to popular</h4>
                     <p>
                         Lorem Ipsum is not simply random text. It has roots in a
@@ -60,7 +65,9 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="computer circle"></div>
+                    <div class="computer circle">
+                        <img src="images/computer.png" alt="computer" />
+                    </div>
                     <h4>Contrary to popular</h4>
                     <p>
                         Lorem Ipsum is not simply random text. It has roots in a
@@ -68,7 +75,9 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="cart circle"></div>
+                    <div class="cart circle">
+                        <img src="images/basket.png" alt="basket" />
+                    </div>
                     <h4>Contrary to popular</h4>
                     <p>
                         Lorem Ipsum is not simply random text. It has roots in a
@@ -84,27 +93,27 @@
                         src="images/cart.png"
                         alt="shopping-cart"
                     />
-                    <article>
-                        <h2>Some Bullet text here</h2>
+                    <article class="bullet-text">
+                        <h3>Some Bullet text here</h3>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and
-                            typesettin
-                            <br />
+                            typesettin </p>
+                            <p>
                             Lorem ipsum has been industry's standart dummy text
-                            ever
-                            <br />
+                            ever</p>
+                            <p>
                             When an unknown printer took a galley of type and
-                            scrambled
-                            <br />
+                            scrambled</p>
+                            <p>
                             It to make a type specimen book. It has survived not
-                            only five centuries
-                            <br />
-                            But also the leap into electronic typesetting,
-                            <br />
-                            Remaining essentially unchanged. It was popularised
-                            <br />
+                            only five centuries</p>
+                            <p>
+                            But also the leap into electronic typesetting,</p>
+                            <p>
+                            Remaining essentially unchanged. It was popularised</p>
+                            <p>
                             The release of Letraset sheets containing Lorem
-                            Ipsum pssages
+                            Ipsum pssages</p>
                         </p>
                     </article>
                 </div>
@@ -112,7 +121,7 @@
         </main>
         <footer class="footer">
             <hr />
-            <p>Copyright © 2012-2013<a href="#"> cssauthor.com</a></p>
+            <p>Copyright &copy; 2012-2013<a href="#"> cssauthor.com</a></p>
         </footer>
     </body>
 </html>
