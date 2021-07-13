@@ -197,6 +197,11 @@ h1 {
     padding-top: 90px;
 }
 
+.shopping-cart > h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
 hr {
     background-color: #dbd8d8;
     border: none;
@@ -207,4 +212,9 @@ hr {
     text-align: center;
     font-size: 15px;
     padding: 25px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: grey;
 }
