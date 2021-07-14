@@ -82,14 +82,15 @@ main {
     color: inherit;
     text-decoration: none;
     padding: 30px 5px;
+    border-bottom: 3px solid transparent;
 }
 
-.active {
+.nav-menu li.active {
     border-bottom: 3px solid;
     border-bottom-color: #5094f2;
 }
 
-.nav-menu li:hover {
+.nav-menu li:hover a {
     border-bottom-color: #5094f2;
 }
 
