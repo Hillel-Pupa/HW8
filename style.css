@@ -76,7 +76,6 @@ main {
     display: inline-block;
     margin-right: 5px;
     padding: 30px 5px;
-    border-bottom: 3px solid transparent;
 }
 
 .nav-menu li a {
@@ -85,8 +84,12 @@ main {
     padding: 30px 5px;
 }
 
-.nav-menu li:hover,
-.nav-menu li:active {
+.active {
+    border-bottom: 3px solid;
+    border-bottom-color: #5094f2;
+}
+
+.nav-menu li:hover {
     border-bottom-color: #5094f2;
 }
 
